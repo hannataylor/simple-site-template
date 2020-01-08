@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <nav className="navbar container" id="top" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-fixed-top container" id="top" role="navigation" aria-label="main navigation">
       <div className="navbar-brand is-hidden-mobile">
         <Link to="/#top" className="link navbar-item navbar-logo">{ siteTitle }</Link>
       </div>

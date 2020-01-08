@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
       <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
       </Helmet>
 
-      <div className="body">
+      <div className="body has-navbar-fixed-top">
         <Header siteTitle={data.site.siteMetadata.title} />
           <main>
               {children}

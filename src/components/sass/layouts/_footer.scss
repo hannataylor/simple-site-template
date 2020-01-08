@@ -1,44 +1,41 @@
 // Footer
 .footer {
-    position: fixed;
-    right: 0;
+    bottom: 0;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-end;
-    background: $dark-grey;
-    color: $white;
-    height: 100vh;
-    width: 0;
-    margin-left: $sidebar;
+    align-items: center;
+    background: $medium-grey;
+    color: $light-grey;
+    height: $sidebar;
+    width: 100vw;
     padding: 0;
     div {
         padding: 0.5rem 0.75rem;
     }
     .social-icons {
         display: flex;
-        flex-direction: column;
+        align-items: center;
         .icon {
             height: 1.25em;
             width: 1.25em;
             &:first-child {
-                margin-bottom: 1em;
+                margin-right: 1em;
             }
             .svg-inline--fa {
                 width: 100%;
                 height: 100%;
 
                 path {
-                    fill: $white;
+                    fill: $light-grey;
                 }
                 &:hover {
                     path {
-                        fill: $light-grey;
+                        fill: $white;
                     }
                 }
             }
             i {
-                color: $white;
+                color: $light-grey;
             }
         }
     }
@@ -51,36 +48,36 @@
 }
 
 @media screen and (max-width: $tablet) {
-    .footer {
-        position: relative;
-        right: unset;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: auto;
-        margin: 0;
-        flex-direction: row;
-        align-items: center;
-        padding-bottom: 5px;
-        .div {
-            padding: 1em;
-        }
-        .social-icons {
-            flex-direction: row;
-            .icon {
-                height: 1.75em;
-                width: 1.75em;
-                &:first-child {
-                    margin-bottom: 0;
-                    margin-right: 1em;
-                }
-            }
+    // .footer {
+    //     position: relative;
+    //     right: unset;
+    //     left: 0;
+    //     bottom: 0;
+    //     width: 100%;
+    //     height: auto;
+    //     margin: 0;
+    //     flex-direction: row;
+    //     align-items: center;
+    //     padding-bottom: 5px;
+    //     .div {
+    //         padding: 1em;
+    //     }
+    //     .social-icons {
+    //         flex-direction: row;
+    //         .icon {
+    //             height: 1.75em;
+    //             width: 1.75em;
+    //             &:first-child {
+    //                 margin-bottom: 0;
+    //                 margin-right: 1em;
+    //             }
+    //         }
             
-        }
-        .copyright {
-            font-size: .8em;
-            width: auto;
-        }
+    //     }
+    //     .copyright {
+    //         font-size: .8em;
+    //         width: auto;
+    //     }
         
-    }
+    // }
 }

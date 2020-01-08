@@ -1,6 +1,7 @@
 .body {
-    background: $dark-grey;
+    background: $white;
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -16,60 +17,26 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $white;
+    color: $dark-grey;
     a {
-        color: white;
+        color: $dark-grey;
         &:hover {
             color: $light-grey;
         }
     }
 }
 
-#about {
-    ul {
-        padding: 1em 0;
-        li {
-            margin-left: 2em;
-            text-indent: -1.75em;
-            span {
-                padding-right: .5em;
-            }
-        }
-    }
-}
-
-#resume {
-    svg, i {
-        margin: 0 .25em;
-    }
-
-    h3 {
-        margin-top: .5em;
-    }
-
-    .resume-dates {
-        font-size: .8em;
-    }
-
-}
-
-#contact {
-    .icon {
-        margin-right: .25em;
-    }
-}
-
 @media screen and (max-width: $tablet) {
-    .body {
-        flex-direction: column;
-    }
-    main {
-        width: 100vw;
-        max-width: 100vw;
-        .section {
-            width: 100vw;
-            height: auto;
-            padding: 4.5rem 1.5rem;
-        }
-    }
+    // .body {
+    //     flex-direction: column;
+    // }
+    // main {
+    //     width: 100vw;
+    //     max-width: 100vw;
+    //     .section {
+    //         width: 100vw;
+    //         height: auto;
+    //         padding: 4.5rem 1.5rem;
+    //     }
+    // }
 }
