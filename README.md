@@ -7,9 +7,9 @@ This site uses:
 )
 
 ## How to use:
-$gatsby develop
-$gatsby build
-$gatsby serve
++ $gatsby develop
++ $gatsby build
++ $gatsby serve
 
-to deploy: $now
-to deploy to production: $now --prod
++ to deploy: $now
++ to deploy to production: $now --prod
