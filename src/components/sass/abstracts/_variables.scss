@@ -1,0 +1,35 @@
+// Layout
+$min_width: 320px;
+$max_width: 1200px;
+$min_font: 16px;
+$max_font: 24px;
+
+$mod_1: 1.2; // mobile
+$mod_2: 1.5; // desktop
+
+$sidebar: 15%;
+$sidebar-mobile: 7.5%;
+$content: calc(100% - #{$sidebar}*2);
+
+
+
+
+// Colors
+$black: #000;
+$white: #fff;
+
+$dark-grey: #1e1e1e;
+$medium-grey: #252526;
+$light-grey: #c5c5c5;
+
+
+
+
+
+// Fonts
+$system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$system-font-monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+$sans-serif-1: "Yantramanav", $system-font, serif;
+$sans-serif-2: "Open Sans", $system-font, sans-serif;
+$special-font: "Playfair Display", $system-font, serif;

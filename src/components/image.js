@@ -13,6 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+ /* Just add this in the HTML to put add an image <Image /> 
+  * And this at the top of the page you want to add it on import Image from "../components/image"
+  */
+
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {

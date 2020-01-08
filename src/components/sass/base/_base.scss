@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav|Open+Sans|Playfair+Display&display=swap');
+
+html {
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
