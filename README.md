@@ -3,8 +3,7 @@
 This site uses:
 + Gatsby
 + Bulma
-+ Zeit Now for deployment [live link](- https://simple-site-template.now.sh
-)
++ Zeit Now for deployment (https://simple-site-template.now.sh)
 
 ## How to use:
 + $gatsby develop
