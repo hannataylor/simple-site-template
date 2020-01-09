@@ -19,6 +19,11 @@ $dark-grey: #1e1e1e;
 $medium-grey: #252526;
 $light-grey: #c5c5c5;
 
+$alpha: .3;
+$grey-shadow: rgba($medium-grey,$alpha);
+
+
+
 // Fonts
 $system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $system-font-monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;

@@ -9,6 +9,7 @@ main {
     width: $content;
     max-width: $content;
     margin: 0 auto;
+    flex: 1;
 }
 
 .section {
@@ -27,16 +28,13 @@ main {
 }
 
 @media screen and (max-width: $tablet) {
-    // .body {
-    //     flex-direction: column;
-    // }
-    // main {
-    //     width: 100vw;
-    //     max-width: 100vw;
-    //     .section {
-    //         width: 100vw;
-    //         height: auto;
-    //         padding: 4.5rem 1.5rem;
-    //     }
-    // }
+    main {
+        width: 100vw;
+        max-width: 100vw;
+        .section {
+            width: 100vw;
+            height: auto;
+            padding: 4.5rem 1.5rem;
+        }
+    }
 }

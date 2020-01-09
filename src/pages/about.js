@@ -9,7 +9,16 @@ const About = () => (
     <SEO title="About" />
     <section className="section">
       <h1 className="title h1-fluid">About</h1>
-      <p>Work in Progress</p>
+      <p>This site uses:</p>
+      <ul>
+        <li>Gatsby</li>
+        <li>Bulma</li>
+        <li>Zeit Now for deployment</li>
+      </ul>
+      <p>Features:</p>
+      <ul>
+        <li>Fully responsive text</li>
+      </ul>
     </section>
   </Layout>
 )
